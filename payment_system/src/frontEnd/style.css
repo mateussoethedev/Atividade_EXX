@@ -1,0 +1,78 @@
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    border-bottom: 2px solid #eee;
+}
+
+    .menu {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .menu a {
+        text-decoration: none;
+        color: #111;
+        font-weight: 650;
+        font-family: Arial, sans-serif;
+        font-size: 12px;
+        white-space: nowrap;
+    }
+
+    .logo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .icones {
+        display: flex;
+        width: 250px;
+        text-decoration: none;
+        justify-content: flex-end;
+        align-items: center;
+        gap: 15px;
+
+    }
+
+.funcoes{
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+    text-decoration: none;
+}
+
+.cadastre-se{
+    font-weight: 650;
+    font-size: 18px;
+}
+
+.cadastro_cliente {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centraliza tudo no meio da tela */
+    padding: 40px;
+}
+
+.form-cadastro {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;          /* Espaço entre um campo e outro */
+    width: 100%;
+    max-width: 450px;   /* Deixa a largura do formulário com cara de sistema profissional */
+}
+
+.input-grupo {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;           /* Espaço entre o label e o input */
+}
+
+.input-grupo input {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
